@@ -27,7 +27,7 @@ concurrency:
 # Next app folder set in configuration variables https://github.com/shawub/actions-workshop/settings/variables/actions
 defaults:
   run:
-    working-directory: ${{ vars.APP_DIR }}
+    working-directory: pages
 
 jobs:
   # Build job
