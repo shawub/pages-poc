@@ -24,10 +24,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Next app folder set in secrets and variables https://github.com/shawub/actions-workshop/settings/variables/actions
+# Next app folder set in configuration variables https://github.com/shawub/actions-workshop/settings/variables/actions
 defaults:
   run:
-    working-directory: "${{ vars.APP_DIR }}"
+    working-directory: ${{ vars.APP_DIR }}
 
 jobs:
   # Build job
