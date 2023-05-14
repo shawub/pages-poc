@@ -24,6 +24,11 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Next app folder
+defaults:
+  run:
+    working-directory: pages
+
 jobs:
   # Build job
   build:
